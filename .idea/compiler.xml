@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="ServerCore.database.main" />
+        <module name="ServerCore.database.test" />
+        <module name="ServerCore.plugin.main" />
+        <module name="ServerCore.api.test" />
+        <module name="ServerCore.api.main" />
+        <module name="ServerCore.plugin.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>

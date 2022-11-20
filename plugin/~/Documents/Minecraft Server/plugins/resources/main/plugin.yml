@@ -1,0 +1,7 @@
+name: Skills
+version: '${project.version}'
+main: io.github.emanuelmcp.ServerCore
+api-version: 1.19
+authors: [ emanuelmcp ]
+description: My minecrafts server core
+website: https://github.com/emanuelmcp
