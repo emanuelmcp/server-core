@@ -7,14 +7,23 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
         </processorPath>
-        <module name="ServerCore.database.main" />
+        <module name="org.example.ServerCore.staff_database.main" />
         <module name="ServerCore.database.test" />
         <module name="ServerCore.plugin.main" />
         <module name="ServerCore.api.test" />
+        <module name="ServerCore.database.main" />
+        <module name="org.example.ServerCore.staff_database.test" />
         <module name="ServerCore.api.main" />
         <module name="ServerCore.plugin.test" />
       </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="ServerCore.staff_database" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

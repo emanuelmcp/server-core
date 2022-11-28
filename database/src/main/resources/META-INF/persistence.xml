@@ -5,7 +5,7 @@
                     http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
              version="2.1">
     <persistence-unit name="persistencia">
-        <class>io.github.emanuelmcp.models.Account</class>
+        <class>io.github.emanuelmcp.database.models.Account</class>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" />
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/test_db" />
